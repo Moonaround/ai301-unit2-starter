@@ -1,0 +1,54 @@
+# eval run written by run_eval.py at 2026-10-26T04:34:30Z
+# model: sonnet (pinned)
+# graded: rubric.md
+# packages: 20 scored
+#   rubric.md  sha256:047ac5575b0007cc
+#   evidence-guide.md  sha256:31ed082e342e77f2
+#
+
+grading 20 package(s) with rubric.md + evidence-guide.md, model sonnet, 5 worker(s)...
+  pkg-01: OK
+  pkg-02: OK
+  pkg-03: OK
+  pkg-04: OK
+  pkg-05: OK
+  pkg-06: OK
+  pkg-07: OK
+  pkg-08: OK
+  pkg-09: OK
+  pkg-10: OK
+  pkg-11: OK
+  pkg-12: OK
+  pkg-13: OK
+  pkg-14: OK
+  pkg-15: OK
+  pkg-16: OK
+  pkg-17: OK
+  pkg-18: OK
+  pkg-19: OK
+  pkg-20: OK
+
+item    gold    verdict  agree  note
+pkg-01  accept  accept   yes    
+pkg-02  reject  reject   yes    failed: steps-rerunnable
+pkg-03  accept  accept   yes    
+pkg-04  reject  reject   yes    failed: behavior-matches
+pkg-05  accept  accept   yes    
+pkg-06  reject  reject   yes    failed: environment-recorded
+pkg-07  accept  accept   yes    
+pkg-08  reject  reject   yes    failed: honest-outcome
+pkg-09  accept  accept   yes    
+pkg-10  accept  accept   yes    
+pkg-11  accept  accept   yes    
+pkg-12  accept  accept   yes    
+pkg-13  reject  reject   yes    failed: names-the-issue
+pkg-14  reject  reject   yes    failed: steps-rerunnable
+pkg-15  reject  reject   yes    failed: behavior-matches
+pkg-16  reject  reject   yes    failed: environment-recorded
+pkg-17  reject  reject   yes    failed: honest-outcome
+pkg-18  reject  reject   yes    failed: steps-rerunnable, behavior-matches
+pkg-19  reject  reject   yes    failed: environment-recorded, names-the-issue
+pkg-20  reject  reject   yes    failed: honest-outcome, steps-rerunnable
+
+categories: clear-accept 8/8  disclosure 1/1  no-evidence 4/4  unfollowable-comms 3/3  wrong-target 4/4
+agreement: 20/20 scored items
